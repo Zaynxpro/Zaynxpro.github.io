@@ -73,6 +73,9 @@
     .img-donate{
       width: 100%;
     }
+    .text-donate{
+      margin-top: -3rem;
+    }
     html,body {
       margin:0;
       padding:0;

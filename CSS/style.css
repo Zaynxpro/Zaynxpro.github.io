@@ -163,3 +163,37 @@ nav ul{
         width: 100%;
         transition: width .3s;
     }
+
+
+    
+.line {
+    margin-top: 2rem;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 16em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}

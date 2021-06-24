@@ -1,0 +1,81 @@
+
+
+  @media only screen and (max-width: 800px) {
+    .text-alligns{
+        margin-top: 150px;
+       margin-left: 20px;
+        
+    }
+    .banner-text{
+        font-size: 20px;
+    }
+
+    .responsive-service{
+      padding-bottom: 5rem;
+    }
+    
+    .responsive-form{
+      padding-bottom: 5rem;
+    }
+    .responsiveness{
+      margin-bottom: 500px;
+    }
+    .text-allign{margin-top: 23px;
+      margin-left: 18px;
+
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    
+    
+    .text-alligns{
+        margin-top: 150px;
+       margin-left: 20px;
+       
+        
+    }
+    .sizing{
+      font-size: 10px;
+    }
+
+    .size-form{
+      font-size: 15px;
+    }
+    .size-formq{
+      font-size: 25px;
+    }
+    .class-responsive{
+      margin: 100px 0px;
+    }
+    .banner-text{
+      
+        font-size: 20px;
+    }
+
+    .responsive-service{
+      padding-bottom: 5rem;
+    }
+    
+    .responsive-form{
+      padding-bottom: 5rem;
+    }
+    .responsiveness{
+      margin-bottom: 500px;
+    }
+    .text-allign{
+      margin-top: 23px;
+      margin-left: 18px;
+      
+
+    }
+    
+    .img-donate{
+      width: 100%;
+    }
+    html,body {
+      margin:0;
+      padding:0;
+      overflow-x:hidden;
+  }
+  }

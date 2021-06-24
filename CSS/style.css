@@ -56,13 +56,18 @@ nav ul{
     background-size: cover;
 }
 
+.text-alligns{
+    margin-top: 9rem ;
+    margin-left: 7rem;
+}
+
 .text-allign{
     margin-top: 9rem ;
     margin-left: 7rem;
 }
 
 .bg-dark{
-    background:transparent !important;
+    background:#a6a3a33d !important;
     transition:0.75s ease;
 }
 .bg-dark.scrolled {
@@ -180,6 +185,8 @@ nav ul{
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
+
+
 @keyframes typewriter {
     from {
           width: 0;
@@ -196,4 +203,12 @@ nav ul{
     to {
           border-right-color: transparent;
     }
+}
+
+#map-container-google-1{
+    margin-top: -12rem;
+}
+
+.service_xd{
+    margin-top: -1rem;
 }

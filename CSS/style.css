@@ -176,7 +176,7 @@ nav ul{
 /*Animation*/
 
 .anim-typewriter {
-    animation: typewriter 4s steps(40) 1s 1 normal both,
+    animation: typewriter 1s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -185,7 +185,7 @@ nav ul{
           width: 0;
     }
     to {
-          width: 16em;
+          width: 7em;
     }
 }
 

@@ -1,0 +1,499 @@
+/* GOOGLE FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* UNIVERSAL */
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* HEADER */
+/* NAVBAR  */
+.navbar{
+    line-height: 3.5rem;
+    padding: 10px 10px;
+}
+
+.fixed-top{
+    background-color: white;
+}
+
+
+h4{
+    line-height: 1.2;
+    color: #20274F;
+}
+
+.navbar-nav{
+    margin-right: 30px;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #20274F;
+}
+
+.nav-item{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btn-theme{
+    padding-left: -10px;
+}
+
+.btn-primary{
+    width: 120px;
+    height: 44px;
+    text-align: center;}
+
+
+/* BANNER */
+.jumbotron{
+    background-image: url(Untitled\ design.png);
+    margin-top: 5rem;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+@media only screen and (max-width: 1220px){
+  .jumbotron{
+    overflow-x: hidden;
+  }
+    
+
+}
+.Banner-text{
+    float: left;
+    margin: 9rem 3rem;
+}
+
+.display-6{
+    font-size: 1rem;
+}
+
+.Banner-button{
+    width: 9rem;
+}
+
+.btn-light{
+
+    height: 44px;
+    text-align: center;
+}
+
+/* ABOUT SECTION  */
+
+#about-section{
+    margin-top: 7.5REM;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(195, 195, 195, 0.35) 35%); 
+}
+
+.about-text{
+    margin-top: 3rem;
+}
+
+.vl {
+    border-left: 2px solid rgb(67, 70, 255);
+    height: 9rem;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+      .vl{
+          height: 5rem;
+          font-size: .7rem;
+      }
+  }
+
+  
+  /* SERVICES SECTION  */
+  #services-section{
+      margin-top: 7REM;
+  }
+  #services-section .card .card-body ul li i.fas {
+    color: rgba(0, 0, 255, 0.671);
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+  #services-section .card .card-body ul li {
+	font-size: 12px;
+	margin: 5px 0;
+	font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+
+#services-section .card .card-body ul{
+    margin-left: -35px;
+}
+
+.card-body p{
+    font-size: 12px;
+}
+
+/* TESTIMONIAL */
+
+#testimonial-section{
+    margin-top: 7rem;
+}
+
+.testimonials{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+  }
+
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+ 
+  
+  .row-testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col-testimonial{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial{
+    background: #fff;
+    padding: 30px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    color: #2d40a7;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  
+
+  /* CONTACT FORM */
+
+  .h1-contact {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #1c87c9;
+    }
+
+    .contact-form{
+        margin-bottom: -5rem;
+        margin-top: 7rem;
+
+    }
+
+    @media (max-width: 880px){
+        .left-part{
+            padding-top: 70px;
+        }
+    }
+
+    .p-contact {
+    margin: 0 0 5px;
+    }
+
+    .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    }
+
+    .form-contact {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+
+    .fas-contact {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #1c87c9;
+    }
+
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    }
+
+    input::placeholder {
+    color: #666;
+    }
+
+    .btn-contact {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+
+    .btn-contact:hover {
+    background: #2371a0;
+    }
+
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+
+    .left-part, form {
+    width: 50%;
+    }
+
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+
+
+    /* DONATION  */
+    .jumbotron-donation{
+        margin-top: 7rem;
+        background-image: url(d.png);
+        background-repeat: no-repeat;
+        height: 36vh;
+        width: 100%;
+        background-size: cover;
+        
+    }
+
+
+
+    .donation-text{
+        float: left;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        
+    }
+
+
+    .h2-donation{
+        color: white;
+    }
+
+    @media only screen and (max-width: 1220px){
+        .jumbotron-donation{
+          overflow-x: hidden;
+          
+        }
+    }
+
+    @media (max-width: 880px){
+        .h2-donation{
+            font-size: 1rem;
+        }
+    }
+
+
+    /* FOOTER  */
+
+    footer{
+        margin-top: 10rem;
+        bottom: 0;
+    }
+    .footer-distributed{
+        background-color: #000;
+        box-shadow: none;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px ;
+    
+        padding: 55px 50px;
+        margin-top: 80px;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .footer-distributed .footer-left{
+        width: 40%;
+    }
+    
+    .footer-distributed h3{
+        color:  #fff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-company-name{
+        color:  #fff;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    
+    .footer-distributed .footer-center{
+        width: 35%;
+    }
+    
+    .footer-distributed .footer-center i{
+        background-color:  #173affa2;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+    
+    .footer-distributed .footer-center i.fa-envelope{
+        font-size: 17px;
+        line-height: 38px;
+    }
+    
+    .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+    
+    .footer-distributed .footer-center p span{
+        display:block;
+        font-weight: normal;
+        font-size:14px;
+        line-height:2;
+    }
+    
+    .footer-distributed .footer-center p a{
+        color:  #fff;
+        text-decoration: none;;
+    }
+    
+    .footer-distributed .footer-right{
+        width: 20%;
+    }
+    
+    .footer-distributed .footer-company-about{
+        line-height: 20px;
+        color:  #fff;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-company-about span{
+        display: block;
+        color:  #fff;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .footer-distributed .footer-icons{
+        margin-top: 25px;
+    }
+    
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 2px;
+    
+        font-size: 20px;
+        color: #1c87c9 ;
+        text-align: center;
+        line-height: 35px;
+    
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    
+    
+    @media (max-width: 880px) {
+    
+        .footer-distributed{
+            font: bold 14px ;
+        
+        }
+    
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    
+        .footer-distributed .footer-center i{
+            margin-left: 0;
+        }
+        .main {
+            line-height: normal;
+            font-size: auto;
+        }
+    
+    }
